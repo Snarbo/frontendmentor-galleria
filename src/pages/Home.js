@@ -13,7 +13,7 @@ const Home = () => {
   }, [setIsOnHomepage]);
 
   return (
-    <div className="home p-6">
+    <div className="home p-6 md:p-10">
       <ResponsiveMasonry columnsCountBreakPoints={{ 375: 1, 768: 2, 900: 3, 1280: 4 }}>
         <Masonry className="gallery-items !gap-10">
           {galleryList.map((item) => (
