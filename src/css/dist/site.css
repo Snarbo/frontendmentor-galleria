@@ -15,6 +15,19 @@ body {
 .header {
   border-color: #e5e5e5; }
 
+.home .gallery-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0; }
+
+.home .gallery-item:hover::before {
+  opacity: 1; }
+
 .home .gallery-items > * {
   gap: 40px !important; }
 
