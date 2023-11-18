@@ -1,0 +1,9 @@
+// HOME
+
+.home {
+  .gallery-items {
+    > * {
+      gap: 40px !important;
+    }
+  }
+}

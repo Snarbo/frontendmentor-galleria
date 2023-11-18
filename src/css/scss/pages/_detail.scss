@@ -1,0 +1,34 @@
+// DETAIL
+
+.detail {
+  p,
+  a {
+    color: $color-dark-grey;
+  }
+
+  &-hero {
+    &-artistimg {
+      @media all and (min-width: $mq-laptop) {
+        left: calc(100% + 30px);
+        bottom: -64px;
+      }
+    }
+
+    &-content {
+      @media all and (min-width: $mq-laptop) {
+        top: -1px;
+        left: calc(100% - 210px);
+      }
+
+      @media all and (min-width: $mq-desktop) {
+        left: calc(100% - 65px);
+      }
+    }
+  }
+
+  &-description {
+    &-year {
+      color: $color-light-grey;
+    }
+  }
+}

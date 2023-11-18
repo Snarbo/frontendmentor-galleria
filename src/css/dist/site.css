@@ -1,0 +1,40 @@
+body {
+  font-family: "Libre Baskerville", serif; }
+
+.start-stop {
+  color: #7d7d7d; }
+  .start-stop:hover {
+    color: #000; }
+
+.pagination progress::-webkit-progress-bar {
+  background-color: #e5e5e5; }
+
+.pagination progress::-webkit-progress-value {
+  background-color: #000; }
+
+.header {
+  border-color: #e5e5e5; }
+
+.home .gallery-items > * {
+  gap: 40px !important; }
+
+.detail p,
+.detail a {
+  color: #7d7d7d; }
+
+@media all and (min-width: 1280px) {
+  .detail-hero-artistimg {
+    left: calc(100% + 30px);
+    bottom: -64px; } }
+
+@media all and (min-width: 1280px) {
+  .detail-hero-content {
+    top: -1px;
+    left: calc(100% - 210px); } }
+
+@media all and (min-width: 1440px) {
+  .detail-hero-content {
+    left: calc(100% - 65px); } }
+
+.detail-description-year {
+  color: #f3f3f3; }
